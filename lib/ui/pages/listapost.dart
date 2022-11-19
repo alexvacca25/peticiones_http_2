@@ -25,6 +25,7 @@ class ListPost extends StatelessWidget {
                       child: Text(cp.listarpost![i].id.toString()),
                     ),
                     title: Text(cp.listarpost![i].title),
+                    subtitle: Text(cp.listarpost![i].body),
                   );
                 })
             : const Icon(Icons.abc),
